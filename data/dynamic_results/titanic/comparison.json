@@ -1,0 +1,37 @@
+{
+  "dataset": "titanic",
+  "task_type": "classification",
+  "target_column": "Survived",
+  "selection_metric": "f1",
+  "best_model": "gradient_boosting",
+  "parent_run_id": "fc721ac73254472c869030c90e6047bc",
+  "models": {
+    "logistic_regression": {
+      "metrics": {
+        "accuracy": 0.8044692737430168,
+        "f1": 0.8014907413028273,
+        "precision": 0.802870757241444,
+        "recall": 0.8044692737430168
+      },
+      "run_id": "b8cbee1d089246d78c4a5ee614abd0c8"
+    },
+    "random_forest": {
+      "metrics": {
+        "accuracy": 0.7877094972067039,
+        "f1": 0.7857027285761156,
+        "precision": 0.7855537514562749,
+        "recall": 0.7877094972067039
+      },
+      "run_id": "0dfb232f3eee49018d3925e45cca196a"
+    },
+    "gradient_boosting": {
+      "metrics": {
+        "accuracy": 0.8100558659217877,
+        "f1": 0.8067653934904058,
+        "precision": 0.8089353912192658,
+        "recall": 0.8100558659217877
+      },
+      "run_id": "beed0e071f06480b8dd38c20248be4f5"
+    }
+  }
+}

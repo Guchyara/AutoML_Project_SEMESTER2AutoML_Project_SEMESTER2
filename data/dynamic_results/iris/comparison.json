@@ -1,0 +1,37 @@
+{
+  "dataset": "iris",
+  "task_type": "classification",
+  "target_column": "species",
+  "selection_metric": "accuracy",
+  "best_model": "logistic_regression",
+  "parent_run_id": "9507484498374e1baa3c81c6684a4992",
+  "models": {
+    "logistic_regression": {
+      "metrics": {
+        "accuracy": 0.9666666666666667,
+        "f1": 0.9665831244778613,
+        "precision": 0.9696969696969696,
+        "recall": 0.9666666666666667
+      },
+      "run_id": "1d2eb81414d94fc18d473a0d1377fa93"
+    },
+    "random_forest": {
+      "metrics": {
+        "accuracy": 0.9,
+        "f1": 0.8997493734335841,
+        "precision": 0.9023569023569024,
+        "recall": 0.9
+      },
+      "run_id": "288c6c93b38d41219d22116d85bfd597"
+    },
+    "gradient_boosting": {
+      "metrics": {
+        "accuracy": 0.9666666666666667,
+        "f1": 0.9665831244778613,
+        "precision": 0.9696969696969696,
+        "recall": 0.9666666666666667
+      },
+      "run_id": "2a302a0905034b1e857386ec5110aec0"
+    }
+  }
+}

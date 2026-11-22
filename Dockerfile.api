@@ -1,0 +1,18 @@
+FROM python:3.10-slim
+
+WORKDIR /app
+
+RUN pip install --no-cache-dir \
+    "fastapi==0.104.1" \
+    "uvicorn==0.24.0" \
+    "pydantic==2.5.0" \
+    "pandas==2.0.3" \
+    "numpy==1.24.3" \
+    "scikit-learn==1.3.0" \
+    "mlflow==2.8.1" \
+    "prometheus-client==0.17.1"
+
+COPY api /app/api
+
+CMD ["uvicorn", "api.fastapi_app:app", "--host", "0.0.0.0", "--port", "8000"]
+

@@ -1,0 +1,21 @@
+{
+  "drift_detected": false,
+  "drift_score": 0.1629480161750169,
+  "features_drifted": 0,
+  "share_drifted_features": 0.0,
+  "feature_scores": {
+    "Pclass": 0.052111853005235804,
+    "Sex": 0.017328017252153,
+    "Age": 0.02648067923029583,
+    "SibSp": 0.0429982625508522,
+    "Parch": 0.0022610461247304834,
+    "Fare": 0.07816852184824316,
+    "Embarked": 0.1629480161750169,
+    "FamilySize": 0.027509604724410715,
+    "IsAlone": 0.008782171896358661
+  },
+  "reference_rows": 712,
+  "current_rows": 418,
+  "threshold": 0.2,
+  "timestamp": "2026-11-15T20:42:48.514131+00:00"
+}

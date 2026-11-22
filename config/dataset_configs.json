@@ -1,0 +1,30 @@
+{
+  "titanic": {
+    "kaggle_dataset": "heptapod/titanic",
+    "kaggle_competition": "titanic",
+    "target_column": "Survived",
+    "problem_type": "classification",
+    "evaluation_metric": "f1",
+    "builtin_fallback": "titanic"
+  },
+  "iris": {
+    "kaggle_dataset": "uciml/iris",
+    "target_column": "species",
+    "problem_type": "classification",
+    "evaluation_metric": "accuracy",
+    "builtin_fallback": "iris"
+  },
+  "wine_quality": {
+    "kaggle_dataset": "yasserh/wine-quality-dataset",
+    "target_column": "quality",
+    "problem_type": "regression",
+    "evaluation_metric": "rmse",
+    "builtin_fallback": "wine"
+  },
+  "house_prices": {
+    "kaggle_dataset": "shree1992/housedata",
+    "target_column": "price",
+    "problem_type": "regression",
+    "evaluation_metric": "rmse"
+  }
+}

@@ -1,0 +1,5 @@
+{
+  "dataset": "titanic",
+  "source": "local_kaggle_cache",
+  "rows": 891
+}

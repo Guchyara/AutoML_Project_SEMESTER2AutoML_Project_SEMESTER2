@@ -1,0 +1,22 @@
+[
+  {
+    "dataset": "titanic",
+    "task_type": "classification",
+    "experiment_name": "dynamic_ml_pipeline_titanic",
+    "best_model": "gradient_boosting",
+    "selection_metric": "f1",
+    "best_metric_value": 0.8067653934904058,
+    "registered_model": "dynamic-titanic-predictor",
+    "model_version": 2
+  },
+  {
+    "dataset": "iris",
+    "task_type": "classification",
+    "experiment_name": "dynamic_ml_pipeline_iris",
+    "best_model": "logistic_regression",
+    "selection_metric": "accuracy",
+    "best_metric_value": 0.9666666666666667,
+    "registered_model": "dynamic-iris-predictor",
+    "model_version": 2
+  }
+]
